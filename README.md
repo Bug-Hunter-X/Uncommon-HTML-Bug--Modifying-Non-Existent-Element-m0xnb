@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked error in HTML/Javascript: attempting to interact with a DOM element that hasn't been defined in the HTML.  The bug.html file shows the erroneous code, while bugSolution.html provides the correct approach. This is crucial for preventing runtime errors and ensuring the proper functioning of web pages.
