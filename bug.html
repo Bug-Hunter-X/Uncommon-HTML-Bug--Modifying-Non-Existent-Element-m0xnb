@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    // Incorrectly attempting to modify the content of a non-existent element
+    document.getElementById("nonExistentElement").innerHTML = "This text is not visible.";
+
+    //Correct way to add content to an existing element
+    document.getElementById("myDiv").innerHTML += "<br> This text is appended";
+  </script>
+</body>
+</html>
